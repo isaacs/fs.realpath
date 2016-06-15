@@ -1,6 +1,6 @@
 {
   "name": "fs.realpath",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Use node's fs.realpath, but fall back to the JS implementation if the native one fails",
   "main": "index.js",
   "dependencies": {},
