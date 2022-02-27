@@ -1,3 +1,4 @@
+/* istanbul ignore file - tested in node */
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a

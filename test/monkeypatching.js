@@ -7,5 +7,5 @@ t.equal(rp.realpath, fs.realpath)
 t.equal(rp.realpathSync, fs.realpathSync)
 
 rp.unmonkeypatch()
-t.notEqual(rp.realpath, fs.realpath)
-t.notEqual(rp.realpathSync, fs.realpathSync)
+t.not(rp.realpath, fs.realpath)
+t.not(rp.realpathSync, fs.realpathSync)

@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Use node's fs.realpath, but fall back to the JS implementation if the native one fails",
   "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "tap": "^15.1.6"
+  },
   "scripts": {
     "test": "tap test/*.js --cov"
   },
@@ -22,5 +23,11 @@
   "files": [
     "old.js",
     "index.js"
-  ]
+  ],
+  "tap": {
+    "statements": 80,
+    "branches": 30,
+    "functions": 100,
+    "lines": 80
+  }
 }
